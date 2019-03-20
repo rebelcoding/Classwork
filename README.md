@@ -5,4 +5,4 @@ Welcome to the SF Coding Class repo
 This repository currently contains two folders:
 
 - **notebooks/** for IPython notebooks to be used with our JupyterHub deployment
-- **markdown/** a reflection of **notebooks** using Markdownf files
+- **markdown/** a reflection of *notebooks/* using Markdown files instead
