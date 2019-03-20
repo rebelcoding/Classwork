@@ -1,2 +1,11 @@
-.ipynb_checkpoints
+###########################################
+#      This is a .gitignore file          #
+#   It is used to prevent certain files,  #
+# directories, or eventypes of files,     #
+# from being trackedby git.               #
+###########################################
 
+# Just list the files or types of files
+
+.ipynb_checkpoints
+*.pyc
