@@ -2,4 +2,7 @@
 
 Welcome to the SF Coding Class repo
 
-This repository currently contains two folders, one for IPython notebooks to be used with our JupyterHub deployment, and another with Markdown files that can be more easily read on GitHub
+This repository currently contains two folders:
+
+- **notebooks/** for IPython notebooks to be used with our JupyterHub deployment
+- **markdown/** for Markdown files I thought would be easier read on GitHub, but .ipynb works too!
