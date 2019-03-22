@@ -50,13 +50,25 @@
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Header Information %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \usepackage{fancyhdr}
 
 \fancypagestyle{plain}{
 \fancyhf{}
-\lhead{\vtop{\textbf{\LARGE{Carlos Apriori-Mendoza}}\\\rule{3.5in}{2pt}}}
+
+% the `\rule{length}{width}`
+% `\\` starts a new line
+% `includegraphics[scale]{file name}
+
+\lhead{\vtop{\textbf{\LARGE{Your Name Here}}\\\rule{3.5in}{2pt}}}
 %\chead{\includegraphics[scale=.15]{sig1}}
-\rhead{\vtop{canin @ dreamfreely.org\\ +57 310 572 1428 \includegraphics[scale=.0075]{WA_icon}}}
+\rhead{\vtop{info @ example.org\\ +57 313 522 1008 \includegraphics[scale=.0075]{WA_icon}}}
 \rfoot {}
 \lfoot {}
 \cfoot {}
@@ -71,23 +83,28 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% INTRODUCTION %%%%%%%
+%% INTRODUCTION %%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 
 \setlength\tabcolsep{.15in}
 
+
+% You will see the following command oftent
+% It creates vertical space `\vspace{height}`
+
 %\vspace{-.25cm}
 
+
+% Don't forget to end what you begin ;)
 
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}
 { c  }
 %{\textwidth}{XX}
-
     \parbox[t]{4.5in}{%
-	\textbf{\large Skills:} Linux, Python, PostgreSQL, JavaScript, jQuery, NodeJS, ExpressJS, AngularJS, Selenium, HTML, Bootstrap, Docker, Nginx, Apache2, Natural Language Toolkit, Git \& \LaTeX\\
+	\textbf{\large Skills:} Linux, Python, PostgreSQL, jQuery, NodeJS, ExpressJS, AngularJS, Selenium, HTML, Bootstrap, Docker, Nginx, Apache2, Natural Language Toolkit, Git \& \LaTeX\\
     }%
 
 %&
@@ -107,7 +124,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% EXPERIENCE %%%%%%%%
+%%% EXPERIENCE %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -115,9 +132,15 @@
 \vspace{-1cm}
 
 
+
+% Not using headings so this is commented-out
+
 %\resheading{Experience}
 
 %\vspace{-.25cm}
+
+
+% Alternative Item Style
 
 %\item
 %	\ressubheading{DreamFreely}{Minneapolis, MN}{Freelance}{July 2010 - March 2017}
@@ -125,13 +148,19 @@
 %
 %	\indent Consultant utilizing technology for strategic communication and organizational development.\\
 
+
+% BEGIN LISTING EXPERIENCE
+
 \begin{itemize}[label={}]
 
+
+% Example Items:
+
 %\item
-%	\ressubheading{DreamFreely}{Remote}{Owner}{July 2010 - Present}
+%	\ressubheading{Organization Name}{Location}{Position}{Start - End}
 %	\begin{itemize}[label={--}]
-%        \resitem{Web and phone application development}
-%		\resitem{Organizational strategy and development}\\
+%        \resitem{What did you do?}
+%		\resitem{What did you like most?}\\
 %	\end{itemize}
 %\vspace{.25cm}
 
@@ -176,18 +205,20 @@
 
 \vspace{.25cm}
 
-%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%
-%%% VOLUNTEER EXPERIENCE %%%%%
-%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% VOLUNTEER EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \resheading{Volunteering}
 
 \vspace{.2cm}
 
 
-\begin{comment}
+% THIS IS ACTUALLY ALL BEING COMMENTED OUT!!!
+
+\begin{comment} % <<< THERE IS WHERE IT STARTS
 \begin{tabular}
 { c | c }
 %{\textwidth}{XX}
@@ -195,7 +226,7 @@
     \parbox[t]{3in}{%
 	\textbf{ScreamFreely} \\ \textit{Found \& Lead Developer} \\ {\small 2008-Present}\\
 
-What began as a means for me to learn coding is now a project to help others learn coding, while increasing civic access and awareness!	
+What began as a means for me to learn coding is now a project to help others learn to code, while increasing civic access and awareness!	
     }%
 
 &
@@ -209,10 +240,16 @@ What began as a means for me to learn coding is now a project to help others lea
 
 \end{tabular}
 
-\end{comment}
+\end{comment} % <<< HERE THE COMMENTING ENDS
 
 
 %\vspace{-.25cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Volunteer Experience Begins %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Notice that we are using a different format for our items
 
 \begin{itemize}[label={}]
 
@@ -235,7 +272,7 @@ Facilitated conflict resolution conferences with minors, their legal guardians \
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% EDUCATION %%%%%%%%%
+%%%%% EDUCATION %%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -287,7 +324,7 @@ Facilitated conflict resolution conferences with minors, their legal guardians \
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% REFERENCES %%%%%%%%
+%%%%% REFERENCES %%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 
