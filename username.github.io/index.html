@@ -7,15 +7,66 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+
+       <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="./style.css"/>
         
+        <style>
+            .paragraphs {padding: 50px;}
+        </style>
     </head>
+    
+    
     <body class="container">
         <h1 class="headline other-class">Welcome to SF</h1>
         <p>
             This is an intoductory paragraph.
         </p>
+        <div class="jobLabel">
+        <span><a rel="projects" href="#">Projects</a></span>
+        <span><a rel="stuff" href="#">Stuff</a></span>
+        <span><a rel="scrapers" href="#">Scrapers</a></span>
+        </div>
+        
+        <div id="projects" class="col-sm-12 col-lg-6 paragraphs"> 
+            <h3>My Project</h3>
+            Guards! Bring me the forms I need to fill out to have her taken away! When the lights go out, it's nobody's business what goes on between two consenting adults. Daddy Bender, we're hungry. It's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV. But then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also he got a race car. Is any of this getting through to you?
+        </div>
+        
+        <div class="col-sm-12 col-lg-6 paragraphs">
+            <h3>And why?</h3>
+            We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day. Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!
+
+How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
+        </div>
+        
+        <div id="stuff" class="col-sm-12 col-lg-12 paragraphs">
+            <h3>Groovy Stuff</h3>
+            <p>Links to that which galvanizes your interests.</p>
+            <ul>
+                <li>
+                    <a href="google.com" target="_blank">Wikipedia</a> A statement
+                </li>
+                <li>
+                    <a href="google.com">Google</a>
+                </li>
+                <li>
+                    <a href="google.com">Google</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div  id="scrapers" class="col-sm-12 col-lg-12 paragraphs">
+            <h3>Scrapers</h3>
+            We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day. Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!
+
+How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
+        </div>
         
         <div class="container">
             <table class="table">
@@ -78,4 +129,13 @@
 
 
     </body>
+    <script>
+
+		$('.jobLabel a').on('click', function(){
+            var target = $(this).attr('rel');
+            $("#"+target).show().siblings("div").hide();
+		});
+
+    </script>
+    
 </html>
