@@ -1,3 +1,13 @@
 body {
-	background-color: #333;
+	background-color: #999;
 }
+
+.paragraphs {
+	padding: 50px; 
+	color: #12FFCD
+}
+
+#stuff {
+ 	padding: 50px; 
+ 	color: #1200CD
+ }

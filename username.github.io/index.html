@@ -3,34 +3,38 @@
         <title>Home</title>
         <!-- Latest compiled and minified CSS -->
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
 
-       <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./style2.css"/>
         
         <style>
-            .paragraphs {padding: 50px; color: #123BCD}
+
         </style>
-    </head>
-    
-    
+    </head> 
     <body class="container">
-        <h1 class="headline other-class">Welcome to SF</h1>
+
+
+        <h1 class="headline">Welcome to SF</h1>
+        <h3 class="headline">Welcome to SF</h3>
+
+
         <p>
             This is an intoductory paragraph.
         </p>
+
         <div class="jobLabel">
-        <span><a rel="projects" href="#">Projects</a></span>
-        <span><a rel="stuff" href="#">Stuff</a></span>
-        <span><a rel="scrapers" href="#">Scrapers</a></span>
+            <span><a rel="projects" href="#">Projects</a></span>
+            <span><a rel="stuff" href="#">Stuff</a></span>
+            <span><a rel="scrapers" href="#">Scrapers</a></span>
         </div>
         
         <div id="projects" class="col-sm-12 col-lg-6 paragraphs"> 
@@ -42,7 +46,7 @@
             <h3>And why?</h3>
             We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day. Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!
 
-How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
+            How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
         </div>
         
         <div id="stuff" class="col-sm-12 col-lg-12 paragraphs">
@@ -65,10 +69,10 @@ How much did you make me? Now Fry, it's been a few years since medical school, s
             <h3>Scrapers</h3>
             We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day. Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!
 
-How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
+            How much did you make me? Now Fry, it's been a few years since medical school, so remind me. Disemboweling in your species: fatal or non-fatal? Yes. You gave me a dollar and some candy. Come, Comrade Bender! We must take to the streets!
         </div>
         
-        <div class="container">
+        <div class="container" style="margin-bottom: 150px;">
             <table class="table">
                 <thead>
                     <tr>
@@ -125,9 +129,6 @@ How much did you make me? Now Fry, it's been a few years since medical school, s
                 </tbody>
             </table>
         </div>
-
-
-
     </body>
     <script>
 
@@ -135,7 +136,6 @@ How much did you make me? Now Fry, it's been a few years since medical school, s
             var target = $(this).attr('rel');
             $("#"+target).show().siblings("div").hide();
 		});
-
     </script>
     
 </html>
