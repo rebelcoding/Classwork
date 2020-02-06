@@ -1,20 +1,43 @@
-# SF Coding Class
+# Rebel Coding Classwork Repository
 
 Welcome to the SF Coding Class repo
 
 This repository currently contains two folders:
 
-- **JobApp/** base files for making resume using LaTeX
+- **LaTeX Templates/** base files for making resume using LaTeX
+  - article
   - cover letter
   - resume
     - resume.tex
 - **notebooks/** for IPython notebooks to be used with our JupyterHub deployment
-  - Getting Started
+  - Shell Commands
     - Basic Git Commands
     - Basic Shell Commands
-    - HTML Cheatsheet
     - SSH-Key GitHub Instuction
-- **markdown/** a reflection of *notebooks/* using Markdown files instead
+  - HTML CSS
+    - Intro to HTML
+    - HTML Cheetsheet
+  - JavaScript
+    - Intro to JavaScript
+    - Intro to API's (Under Construction)
+  - Python
+    - 1.1
+    - 1.2
+    - 1.3
+    - 2.1
+    - 2.2
+    - 3
+    - 4.1
+    - 4.2
+    - 5
+    - 6
 - **username.github.io/** website template
   - index.html
+  - index.alt.html
   - style.css
+  - bootstrap.min.css
+  - bootstrap.min.js
+  - jquery.min.js
+  - photo.jpg
+  - README.md
+  - 
