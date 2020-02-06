@@ -1,6 +1,6 @@
 # Rebel Coding Classwork Repository
 
-Welcome to the SF Coding Class repo
+Welcome to the Rebel Coding Classwork repository.
 
 This repository currently contains two folders:
 
